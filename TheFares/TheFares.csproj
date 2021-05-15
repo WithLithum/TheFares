@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LemonUI.RagePluginHook" Version="1.4.0" />
+    <PackageReference Include="RagePluginHook" Version="1.86.1" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
 
 </Project>
